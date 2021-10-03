@@ -16,13 +16,22 @@ body {
   font-family: Arial;
   margin: 0;
 }
+.back-rect{
+          background-image: linear-gradient(to bottom right,rgb(255,0,0),rgb(255,69,0);
+width:60rem;
+height:22rem;
+border-radius:50px;
+padding-top:2rem;
+justify-content: center;
+margin-left:100px;
+}
 
 /* Header/Logo Title */
 .header {
   padding: 30px 50px;
   text-align: center;
   background: "12818.jpg";
-  color: white;
+  color: rgb(255,255,255);
   font-size: 30px;
 }
 /* Page Content */
@@ -50,7 +59,7 @@ ul {
   
   li a {
     display: block;
-    color: white;
+    color: rgb(255,255,255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -58,6 +67,17 @@ ul {
   
   li a:hover {
     background-color: #19cea7;
+  }
+  .btn-primary{
+border-radius:20px;
+margin-left:25rem;
+font-size:30px;
+  }
+  #email{
+            border-radius:20px;
+  }
+  #pwd{
+            border-radius:20px;
   }
       </style>
       <ul>
@@ -68,16 +88,16 @@ ul {
       </ul>
 
 <div class="content">
-  <h2 style="background-color:;font-size: 30px;color:#1d56acf5;font-family: monaco;">What we offer</h2>
+  <h2 style="font-size: 30px;color:#1d56acf5;font-family: monaco;">What we offer</h2>
   <p></p>
   <p>Some content blablabla, some content blablabla.</p>
   <p>Some content blablabla, some content blablabla.</p>
 </div>
-
+<div class="back-rect">
   <div class="container">
   <h2>Login form</h2>
   <form action="/action_page.php">
-    <div class="form-group">
+    <div class="form-group ">
       <label for="email">Email:</label>
       <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
     </div>
@@ -93,6 +113,7 @@ ul {
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
 </div>
-
+</div>
 </body>
 </html>
+
